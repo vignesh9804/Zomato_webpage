@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #ebf2ff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.nav__logo {
+    width: 100px;
+}
+.logo {
+    width: 100%;
+}
+.button1 {
+    background-image: linear-gradient(
+        to right,#ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    color: #fff;
+    border:none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.button1:hover {
+    border: 2px solid #000;
+    cursor: pointer;
+}
