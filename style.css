@@ -34,3 +34,20 @@ body{
     border: 2px solid #000;
     cursor: pointer;
 }
+.container {
+    margin:4%;
+}
+.hero__container {
+    width: 100%;
+}
+.hero__image {
+width: 100%;
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px lightgray;
+}
+.text1 {
+    font-weight: 800;
+    font-size:22px;
+    margin: 20px 0;
+    color: #1D3557;
+}
